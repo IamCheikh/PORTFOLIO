@@ -83,7 +83,7 @@ h2 {
 }
 
 h3 {
-	font-size: 17px;
+	font-size: 15px;
 	letter-spacing: 1px;
 	margin: 0 0 5px;
 }
@@ -470,12 +470,17 @@ textarea.form-control {
 }
 .skillset{
 	text-align: justify;
-	border: 2px solid black;
 }
 #social-links {
 	list-style: none;
 	padding: 0;
 	margin: 0 0 20px;
+}
+
+.text-center{
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 10px;
 }
 
 #social-links li {
