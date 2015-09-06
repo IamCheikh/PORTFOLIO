@@ -12,6 +12,7 @@ body {
 	font: 300 14px/1.8 'Raleway', sans-serif;
 	color: #666;
 	overflow-x: hidden;
+	position: inherit;
 }
 
 img {
@@ -82,7 +83,7 @@ h2 {
 }
 
 h3 {
-	font-size: 13px;
+	font-size: 17px;
 	letter-spacing: 1px;
 	margin: 0 0 5px;
 }
@@ -330,9 +331,9 @@ textarea.form-control {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
-.calltoaction-btn > .btn:hover{
+/*.calltoaction-btn > .btn:hover{
     background: #fff;
-}
+}*/
 
 .long-down {
 	margin-bottom: 40px;
@@ -420,31 +421,19 @@ textarea.form-control {
  * Skills
 /* ---------------------------------------------- */
 
-.chart {
+/*.chart {
     display: inline-block;
     height: 140px;
     margin: 50px 0;
     position: relative;
     text-align: center;
-    width: 140px;
-}
+    width: 140px;*/
+/*}
 .chart canvas {
     left: 0;
     position: absolute;
     top: 0;
-}
-.percent {
-    display: inline-block;
-    font-size: 25px;
-    font-weight: 300;
-    line-height: 140px;
-    z-index: 2;
-}
-.percent:after {
-    content: "%";
-    font-size: 50%;
-    margin-left: 0.1em;
-}
+}*/
 
 /* ---------------------------------------------- /*
  * Contact
@@ -474,23 +463,27 @@ textarea.form-control {
 }
 
 #footer span{
+	  position: inherit;
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
     color: #ff5252;
 }
-
-.social-links {
+.skillset{
+	text-align: justify;
+	border: 2px solid black;
+}
+#social-links {
 	list-style: none;
 	padding: 0;
 	margin: 0 0 20px;
 }
 
-.social-links li {
+#social-links li {
 	display: inline-block;
 	margin: 5px;
 }
 
-.social-links a {
+#social-links a {
 	width: 36px;
 	height: 36px;
 	display: block;
@@ -504,7 +497,7 @@ textarea.form-control {
 	color: rgba(255, 255, 255, .2);
 }
 
-.social-links a:hover {
+#social-links a:hover {
 	border: 1px solid rgba(255, 255, 255, .5);
 	color: rgba(255, 255, 255, .8);
 }
